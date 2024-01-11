@@ -4,7 +4,9 @@
     <AssemblyName>CRoaring.Net</AssemblyName>
     <RootNamespace>CRoaring</RootNamespace>
     <Description>.Net wrapper for CRoaring - a C implementation of Roaring Bitmaps</Description>
-    <TargetFrameworks>net45;netstandard1.1</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <None Include="*.dll">
@@ -12,6 +14,17 @@
     </None>
     <None Include="*.so">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRoaring\CRoaring.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="roaring.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="roaring.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>

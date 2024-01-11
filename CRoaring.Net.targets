@@ -4,10 +4,10 @@
         <VersionSuffix></VersionSuffix>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <PackageTags>croaring;roaring;bitmap</PackageTags>
-        <PackageProjectUrl>https://github.com/RogueException/CRoaring.Net</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/miniksa/CRoaring.Net</PackageProjectUrl>
         <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>git://github.com/RogueException/CRoaring.Net</RepositoryUrl>
+        <RepositoryUrl>git://github.com/miniksa/CRoaring.Net</RepositoryUrl>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(BuildNumber)' == '' ">
         <VersionSuffix Condition=" '$(VersionSuffix)' != ''">$(VersionSuffix)-dev</VersionSuffix>
