@@ -24,6 +24,11 @@ using (var rb2 = new RoaringBitmap())
 }
 ```
 
+## Project Notes
+- CRoaring is a C/C++ dummy project whose whole responsibility is to trigger VCpkg to build the CRoaring native library.
+- CRoaring.Net is a .Net Core 8 project that wraps the native library using P/Invoke which works on Linux and Windows.
+  - It will copy the binaries out of the native VCpkg project folder as content assets into its own output directory.
+
 ## Compiling
 ### Linux
 Requirements:
