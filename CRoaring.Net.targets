@@ -1,11 +1,12 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <VersionPrefix>0.2.27</VersionPrefix>
+        <VersionPrefix>1.0.0</VersionPrefix>
         <VersionSuffix></VersionSuffix>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <PackageTags>croaring;roaring;bitmap</PackageTags>
         <PackageProjectUrl>https://github.com/miniksa/CRoaring.Net</PackageProjectUrl>
-        <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>git://github.com/miniksa/CRoaring.Net</RepositoryUrl>
     </PropertyGroup>
